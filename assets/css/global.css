@@ -1,5 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --bg-black: #000000;
+    --bg-white: #ffffff;
+    --bg-dim-gray: #505050;
+
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-gray: #888888;
+
+    --ff-montserrat: "Montserrat", sans-serif;
+
+    
+}
+
+.subtitle {font: 300 1rem/1.25 var(--ff-montserrat)} 
+    
