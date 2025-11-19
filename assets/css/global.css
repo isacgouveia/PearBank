@@ -14,9 +14,18 @@
     --color-gray: #888888;
 
     --ff-montserrat: "Montserrat", sans-serif;
-
+    --ff-VendSans: "Vend Sans", sans-serif;
     
 }
 
-.subtitle {font: 300 1rem/1.25 var(--ff-montserrat)} 
-    
+.subtitle {
+    font: normal 400 1rem/1.25 var(--ff-montserrat);
+    max-width: auto;
+    text-align: justify;
+}
+
+h1{
+    font: normal 300 2.5rem/1.25 var(--ff-VendSans);
+    max-width: auto;
+    text-align: justify;
+}
