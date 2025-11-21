@@ -1,0 +1,15 @@
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.gap-1{
+    gap: 1rem;
+}

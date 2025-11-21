@@ -1,0 +1,14 @@
+nav {
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-block: 1.25rem;
+
+    justify-content: space-between;
+
+    & .nav {
+        font: normal 400 1rem/1.25 var(--ff-montserrat);
+        list-style: none;
+        display: flex;
+        gap: 3rem;
+    }
+}
