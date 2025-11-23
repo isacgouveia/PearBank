@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body {
+    background: #0e0e0e;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 600px;
+    margin: 80px auto;
+}
+
+.feature {
+    padding: 40px;
+    border-right: 1px solid #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+.feature:nth-child(2),
+.feature:nth-child(4) {
+    border-right: none; /* remove a linha da última coluna */
+}
+
+.feature:nth-child(3),
+.feature:nth-child(4) {
+    border-bottom: none; /* remove linha da última linha */
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #bdbdbd;
+    font-size: 15px;
+}
+    </style>
+</head>
+<body>
+    <div class="features-grid">
+        <div class="feature">
+            <h3>Personal Finance</h3>
+            <p>Gives you the freedom to manage your finances.</p>
+        </div>
+    
+        <div class="feature">
+            <h3>Smart Banking</h3>
+            <p>Gives you the freedom to manage your finances.</p>
+        </div>
+    
+        <div class="feature">
+            <h3>Card Management</h3>
+            <p>Gives you the freedom to manage your finances.</p>
+        </div>
+    
+        <div class="feature">
+            <h3>Multi Platform</h3>
+            <p>Gives you the freedom to manage your finances.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
